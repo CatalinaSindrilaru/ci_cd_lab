@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/catalinasindrilaru/ci_cd_lab:sha256:0e4effa2e26347f91ff4019745512bad24fa7671304d6da64c90da5bce4a3072
+          image: ghcr.io/catalinasindrilaru/ci_cd_lab@sha256:0e4effa2e26347f91ff4019745512bad24fa7671304d6da64c90da5bce4a3072
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
